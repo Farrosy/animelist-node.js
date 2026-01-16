@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+  transition: .3s ease all;
+}
+
+img:hover {
+  scale: 102%;
+}

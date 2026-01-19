@@ -14,7 +14,7 @@ const InputSearch = () => {
     router.push(`/search/${keyword}`)
   }
   return (
-    <div className="relative">
+    <div className="relative bg-white text-black">
       <input placeholder="cari anime" className="p-2 w-full rounded" ref={searchRef} />
       <button className="absolute top-2 end-2" onClick={handleSearch}>
         <MagnifyingGlassIcon size={24} />
